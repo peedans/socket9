@@ -17,7 +17,7 @@ function DayOfWeek(month,  date,  year ) {
     return dayName[day]
 }
 
-console.log(DayOfWeek("November",21,2022))
+console.log(DayOfWeek("November",24,2022))
 
 function solution(param1, param2) {
     return param1+param2
@@ -36,11 +36,15 @@ console.log(solution2("aabaa"))
 
 function solution3(inputArray) {
     let arr = inputArray[0] * inputArray[1]
-
     for (let i = 0; i < inputArray.length - 1; i++) {
         arr = Math.max(arr, inputArray[i] * inputArray[i + 1]);
     }
-
     return arr
 }
 console.log(solution3([3, 6, -2, -5, 7, 3]))
+
+function solution4(n) {
+    return n*n
+}
+console.log(solution4(4))
+console.log(solution4(3))
