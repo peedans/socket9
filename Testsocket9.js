@@ -44,7 +44,6 @@ function solution3(inputArray) {
 console.log(solution3([3, 6, -2, -5, 7, 3]))
 
 function solution4(n) {
-    return n*n
+    return n*n+(n-1)*(n-1)
 }
 console.log(solution4(4))
-console.log(solution4(3))
